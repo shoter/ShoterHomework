@@ -27,4 +27,24 @@ public class SchoolWork
 	{
 		Log.d("SchoolWork", isTest + " id - " + ID + " " + date + " subject : " + subject + " desc : " + description);
 	}
+	
+	public String getDate()
+	{
+		return date.toString();
+	}
+	
+	public String getSubject()
+	{
+		return subject;
+	}
+	
+	public String getDescription()
+	{
+		return description;
+	}
+	
+	public String getAuthor()
+	{
+		return author;
+	}
 }
