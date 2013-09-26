@@ -33,6 +33,24 @@ public class EmptySave implements SchoolWorkSaver
 		cal.set(Calendar.DATE, 23);
 		nowy = new SchoolWork(0, false, new Date(cal.getTimeInMillis()), "Matematyka", "Test ", "Damianek <3"  );
 		list.add(nowy);
+		
+		cal.set(Calendar.DATE, 11);
+		nowy = new SchoolWork(0, false, new Date(cal.getTimeInMillis()), "Fizyka", "dupa 120", "Damianek <3"  );
+		list.add(nowy);
+		
+		cal.set(Calendar.DATE, 23);
+		nowy = new SchoolWork(0, false, new Date(cal.getTimeInMillis()), "Matematyka", "Test ", "Damianek <3"  );
+		list.add(nowy);
+
+		
+		cal.set(Calendar.DATE, 11);
+		nowy = new SchoolWork(0, false, new Date(cal.getTimeInMillis()), "Fizyka", "dupa 120", "Damianek <3"  );
+		list.add(nowy);
+		
+		cal.set(Calendar.DATE, 23);
+		nowy = new SchoolWork(0, false, new Date(cal.getTimeInMillis()), "Matematyka", "Test ", "Damianek <3"  );
+		list.add(nowy);
+
 
 	}
 	

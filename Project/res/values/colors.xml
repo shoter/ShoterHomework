@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="TextColor">#B5FF00</color>
+    <color name="Pressed">#265719</color>
+    <color name="Focused">#12290C</color>
+    <color name="BackgroundColor">#FF060F01</color>
+    <color name="DelimeterColor">#2F057F00</color>
+    
+</resources>

@@ -2,7 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:listSelector="@drawable/listview_selector"
+     >
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -14,6 +16,11 @@
             android:id="@+id/iconView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/DelimeterColor"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
             android:src="@drawable/ic_launcher" />
 
         <TextView
@@ -24,7 +31,10 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:text="Angielski"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/TextColor"
+            android:textColorHint="#FFB36A00"
+            android:textColorLink="#FFB36A00" />
 
         <TextView
             android:id="@+id/tv_author"
@@ -33,7 +43,10 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="5dp"
             android:text="Damian"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/TextColor"
+            android:textColorHint="@color/TextColor"
+            android:textColorLink="@color/TextColor" />
 
     </LinearLayout>
 
@@ -51,7 +64,8 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:text="09-26"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/TextColor" />
 
         <TextView
             android:id="@+id/tv_description"
@@ -63,7 +77,8 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Strona 52"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/TextColor" />
 
     </LinearLayout>
 
@@ -72,7 +87,7 @@
         android:layout_height="3dp"
         android:layout_marginBottom="4dp"
         android:layout_marginTop="4dp"
-        android:background="#4F000000"
+        android:background="@color/DelimeterColor"
         android:orientation="horizontal" >
 
     </LinearLayout>
