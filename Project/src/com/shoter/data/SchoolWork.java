@@ -6,16 +6,14 @@ import android.util.Log;
 
 public class SchoolWork
 {
-	protected int ID;
 	protected boolean isTest;
 	protected Date date;
 	protected String subject;
 	protected String description;
 	protected String author;
 	
-	public SchoolWork(int ID, boolean isTest, Date date, String subject, String description, String author)
+	public SchoolWork( boolean isTest, Date date, String subject, String description, String author)
 	{
-		this.ID = ID;
 		this.isTest = isTest;
 		this.date = date;
 		this.subject = subject;
@@ -25,7 +23,7 @@ public class SchoolWork
 	
 	public void log()
 	{
-		Log.d("SchoolWork", isTest + " id - " + ID + " " + date + " subject : " + subject + " desc : " + description);
+		Log.d("SchoolWork", isTest + " id - " + " " + date + " subject : " + subject + " desc : " + description);
 	}
 	
 	public String getDate()
